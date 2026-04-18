@@ -800,17 +800,17 @@ footer {
     /* HOVER & ACTIVE STATES */
     .dropdown_button:hover {
         text-decoration: underline;
-        color: var(--WHITE);
+        color: var(--WHITE) !important;
     }
 
     .login_button:hover {
-        outline: 1px solid var(--GRAY-600-A);
+        outline: 1px solid var(--GRAY-600-A) !important;
         color: var(--WHITE);
     }
 
     .register_button:hover {
         background: hsla(0, 0%, 100%, 0.3);
-        color: var(--WHITE);
+        color: var(--WHITE) !important;
     }
 }
 
