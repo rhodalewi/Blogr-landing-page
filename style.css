@@ -1,7 +1,7 @@
 /* OVERPASS FONT */
 @font-face {
     font-family: 'Overpass';
-    src: url('/Fonts/Overpass/Overpass-SemiBold.ttf') format('truetype');
+    src: url('./Fonts/Overpass/Overpass-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
@@ -16,21 +16,21 @@
 /* UBUNTU FONT */
 @font-face {
     font-family: 'Ubuntu';
-    src: url('/Fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
+    src: url('./Fonts/Ubuntu/Ubuntu-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('/Fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
+    src: url('./Fonts/Ubuntu/Ubuntu-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Ubuntu';
-    src: url('/Fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
+    src: url('./Fonts/Ubuntu/Ubuntu-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -71,7 +71,7 @@ body {
 
 .hero_page {
     background-color: var(--RED-500) ;
-    background-image: url("/images/bg-pattern-intro-mobile.svg");
+    background-image: url("./images/bg-pattern-intro-mobile.svg");
     background-position: 43% 40%;
     background-repeat: no-repeat;
     background-size: auto;
@@ -571,7 +571,7 @@ footer {
     }
 
     .dropdown_icon {
-        content: url('/images/icon-arrow-light.svg');
+        content: url('./images/icon-arrow-light.svg');
         scale: 1;
     }
 
@@ -660,7 +660,7 @@ footer {
     }
 
     .product_img {
-        content: url(/images/illustration-editor-desktop.svg);
+        content: url(./images/illustration-editor-desktop.svg);
         width: 700px;
         height: 100%;
     }
@@ -746,7 +746,7 @@ footer {
     }
 
     .about_img_container .about_img {
-        content: url(/images/illustration-laptop-desktop.svg);
+        content: url(./images/illustration-laptop-desktop.svg);
         width: 100%;
         display: block;
     }

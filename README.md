@@ -12,7 +12,7 @@ This Blogr landing page is a modern marketing website. It features:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://rhodalewi.github.io/Blogr-landing-page/)
 
 ## My process
 
